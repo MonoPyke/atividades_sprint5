@@ -52,3 +52,45 @@ console.log(`${resultadoFinal}% dos números dados são impares.`);
 
 //------------------------------EXERCICIO 3-------------------------------
 
+function variavelA (){
+    let return = [];
+    for (let i = 0; i < 10; i++){
+        if(i % 2 === 0 && i % 3 === 0){
+            return.push(i);
+        }
+    }
+    return return;
+}
+
+let a = variavelA();
+
+function variavelB (){
+    let retorn = [];
+    for(let b = 0; b < 10; b++){
+        if(b % 5 === 0){
+            retorn.push(i);
+        }
+    }
+    return retorn;
+}
+
+let b = variavelB();
+
+function exec3 (a,b) {
+    let a = [];
+    let b = [];
+    if (a.length > 10 || a.length < 10){
+        console.log("Lista fora dos padrões necessários");
+    }
+    else if (a % 2 === 0 || a % 3 === 0){
+        return true;
+    }
+    else if(b % 5 === 0){
+        return true;
+    }
+    else {
+        console.log("Valores não permitidos encontrados.");
+    
+}
+
+exec3(a,b);
